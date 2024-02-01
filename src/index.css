@@ -93,3 +93,33 @@ border-radius: 10px;
   cursor: pointer;
   scale: 95%;
 }
+
+.detail-container{
+  display: flex;
+gap: 20px;
+  height: 100vh;
+  justify-content: center;
+  border: 2px solid red;
+  align-items: center;
+}
+
+.detail-image{
+  width: 500px;
+  height: 500px;
+}
+
+.go-home-btn{
+  position: absolute;
+  top: 40px;
+  left: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:4px;
+  font-size :20px;
+}
+
+.movie-summary{
+  width: 600px;
+text-align: justify;
+}
