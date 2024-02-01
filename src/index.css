@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.parent-div {
+  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1240px;
+  min-height: 100vh;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 50px;
+  margin: auto;
+}
+
+.card-main {
+  border-radius: 
+  50px;
+}
+
+.card {
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 0 30px rgb(209, 209, 209);
+  min-height: 400px;
+  min-width: 280px;
+border-radius: 10px;
+}
+
+.card:hover{
+  box-shadow: 0 0 70px rgb(209, 209, 209);
+}
+
+.movie-image {
+  min-height: 300px;
+  min-width: 280px;
+  margin: auto;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.card-body {
+  border: 2px solid tomato;
+}
+
+.title{
+  letter-spacing: 1px;
+}
+
+.genres{
+  display: flex;
+  gap:8px;
+}
+
+.genre{
+  background-color: gray;
+  color: white ;
+  padding: 4px 6px;
+  border-radius: 10px;
+}
+
+
+.movie-title{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+
+}
+
+.detail-btn{
+  padding: 10px 20px ;
+  background-color: rgb(61, 100, 76);
+  width: 100%;
+  border-radius: 50px;
+  border:none;
+  margin-top: 16px;
+  color: white ;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 15px;
+  transition:all 0.3s ease-in-out
+}
+
+.detail-btn:hover{
+
+  background-color: rgb(165, 86, 72);
+  cursor: pointer;
+  scale: 95%;
+}
